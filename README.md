@@ -7,13 +7,14 @@ Lightweight Zsh scripts that make your Git workflow faster, cleaner, and more st
 Tired of messy commits or repetitive setup?  
 **zsh-git-helpers** improves consistency and speed by adding:
 - **`gcm`** – an interactive commit helper for Conventional Commits  
-- **`gnew`** – a one-command project initializer with optional remote setup  
+- **`gnew`** – a one-command project initializer with automatic GitHub repo creation (if `gh` is installed)
 
 ## ✨ Features
 
 - **Conventional Commits**: Guided prompts for structured commit messages.
 - **Project Initialization**: Quickly set up new Git repositories with optional remote configuration.
 - **Zsh Integration**: Seamlessly integrates into your Zsh shell environment.
+- **Manual Fallback**: If `gh` isn’t installed, you can still add a remote URL manually.
 
 ## 📦 Installation
 
